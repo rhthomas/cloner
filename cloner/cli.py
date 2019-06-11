@@ -10,14 +10,14 @@ def main():
     parser.add_argument(
         "--github",
         type=str,
-        default="/Users/rhysthomas/Documents/GitHub",
+        default="~/Documents/GitHub",
         metavar="<path>",
         help="Path to your Github folder.",
     )
     parser.add_argument(
         "--desktop",
         type=str,
-        default="/Users/rhysthomas/Desktop",
+        default="~/Desktop",
         metavar="<path>",
         help="Path to your Desktop folder.",
     )

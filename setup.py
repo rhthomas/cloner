@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="Cloner",
-    version="0.1",
+    version="0.2",
     packages=find_packages(),
     author="Rhys Thomas",
     author_email="rhys97@me.com",
