@@ -6,7 +6,7 @@ I would rather have all of my Github *stuff* in my `~/Documents/Github` folder, 
 Cloner is a simple script which does just that.
 Rather than using `git clone <repo>`, you use the cloner tool `cloner <repo>` and it automatically clones to the set Github folder and creates a symbolic link to the desktop.
 
-Probably not a useful script for anyone else but me :man-shrugging: but oh well!
+Probably not a useful script for anyone else but me :man_shrugging: but oh well!
 
 ```
 usage: cloner [-h] [--github <path>] [--desktop <path>] repo
