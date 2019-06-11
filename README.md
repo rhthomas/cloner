@@ -1,5 +1,7 @@
 # cloner
 
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/python/black)
+
 Lately I have found myself cloning repos to my desktop to work on new features.
 I would rather have all of my Github *stuff* in my `~/Documents/Github` folder, but temporarily link the ones I'm currently working on to my desktop.
 
@@ -21,4 +23,14 @@ optional arguments:
   -h, --help        show this help message and exit
   --github <path>   Path to your Github folder.
   --desktop <path>  Path to your Desktop folder.
+```
+
+## Installation
+
+Installation is made easy using pip!
+
+```bash
+git clone https://github.com/rhthomas/cloner.git
+cd cloner
+pip3 install .
 ```
